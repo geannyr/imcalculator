@@ -21,6 +21,9 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
+      - name: Corrigir permissões do Vite
+        run: chmod +x node_modules/.bin/vite
+
       - name: Build do projeto
         run: npm run build
 
