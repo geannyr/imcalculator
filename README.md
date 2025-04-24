@@ -4,7 +4,11 @@ Calculadora moderna de IMC (Índice de Massa Corporal) feita com **React + Vite 
 
 ## 📷 Demonstração
 
-<img src="https://user-images.githubusercontent.com/SEU_ID/imc-preview.png" alt="preview" width="500"/>
+Claro:
+![image](https://github.com/user-attachments/assets/57b3d310-7252-479e-bf1e-721d211c698e)
+
+Escuro:
+![image](https://github.com/user-attachments/assets/12729103-4be5-44e7-9825-2bf383fd3015)
 
 👉 [Acesse a versão online](https://geannyr.github.io/imcalculator)
 
