@@ -1,29 +1,13 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-	<title>Calculadora de IMC</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div class="container">
-		<h1 style="padding-bottom: 20px; padding-top: 20px;">Calculadora de IMC</h1>
-		<div class="input-container">
-			<label for="peso">Peso (kg):</label>
-            <p></p>
-			<input type="number" id="peso" name="peso">
-		</div>
-		<div class="input-container">
-			<label for="altura">Altura (cm):</label> <p></p>
-			<input type="number" id="altura" name="altura">
-		</div>
-        
-		<button onclick="calcularIMC()">Calcular</button>
-        <button id="limpar">Limpar dados</button>
-		<div id="resultado"></div>
-	</div>
-	<script src="script.js"></script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de IMC</title>
+  </head>
+  <body class="dark:bg-gray-900 dark:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
